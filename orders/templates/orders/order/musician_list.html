@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <table>
+        <tr>
+            <th>Musician</th>
+            <th>Genre</th>
+        </tr>
+        {% for musician in musicians %}
+        <tr>
+            <td>{{ musician.name }}</td>
+            <td>{{ musician.genre }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+
+
+
+</body>
+</html>
